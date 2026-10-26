@@ -1,0 +1,38 @@
+{
+  "feature_names": [
+    "country_match",
+    "name_exact_match",
+    "name_ratio",
+    "name_partial_ratio",
+    "name_token_sort_ratio",
+    "name_token_set_ratio",
+    "name_token_jaccard",
+    "address_exact_match",
+    "address_ratio",
+    "address_token_jaccard",
+    "address_missing",
+    "name_len_diff_ratio",
+    "addr_len_diff_ratio",
+    "shared_tokens"
+  ],
+  "feature_importances": {
+    "country_match": 0.0,
+    "name_exact_match": 0.0,
+    "name_ratio": 0.0029,
+    "name_partial_ratio": 0.0015,
+    "name_token_sort_ratio": 0.002,
+    "name_token_set_ratio": 0.0007,
+    "name_token_jaccard": 0.0041,
+    "address_exact_match": 0.0,
+    "address_ratio": 0.0018,
+    "address_token_jaccard": 0.2561,
+    "address_missing": 0.0,
+    "name_len_diff_ratio": 0.001,
+    "addr_len_diff_ratio": 0.0056,
+    "shared_tokens": 0.0
+  },
+  "train_samples": 7236,
+  "val_samples": 1764,
+  "positive_count": 3000,
+  "negative_count": 6000
+}

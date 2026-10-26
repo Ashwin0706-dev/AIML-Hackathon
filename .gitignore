@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+dist/
+AIML_tsv/*.tsv
+Amazon_ML_Challenge/*.tsv
+node_modules/
+__pycache__/
+*.py[cod]
+dist/
+.env
